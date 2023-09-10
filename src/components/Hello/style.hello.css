@@ -1,0 +1,85 @@
+/* EMPIEZA SECTION DEVELOPER AMARILLO */
+
+section > div > section > hr {
+  border: none;
+  border-left: 10px solid rgba(172, 172, 10, 0.832);
+  height: 4em;
+  width: 1px;
+  margin: 10px;
+}
+
+.divDeveloper {
+  display: flex;
+}
+
+.sectionAmarillo {
+  background-color: var(--colorPrincipal);
+}
+
+.section1 {
+  padding-top: 60px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 var(--marginLeftRight);
+}
+
+section > div > section > a {
+  padding-left: 10px;
+}
+
+section > div > h6 {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.sectionButtons {
+  padding-top: 20px;
+}
+
+.buttonWorks {
+  background-color: var(--colorSecundario);
+  border: none;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 0.6em;
+  cursor: pointer;
+}
+
+section > div > section > a {
+  color: black;
+  font-weight: 700;
+  font-size: 0.6em;
+}
+
+.section2 {
+  align-self: center;
+  width: 50%;
+  zoom: 1.7;
+}
+
+.fotoPerfil {
+  border-radius: 50%;
+  border: 12px solid white;
+  height: 400px;
+}
+
+.divFotoPerfil {
+  align-self: center;
+  width: 50%;
+  text-align: end;
+}
+
+.flecha {
+  margin-top: -30px;
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutMe {
+  color: black;
+}
+
+/* TERMINA SECTION DEVELOPER AMARILLO */
