@@ -1,42 +1,76 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  --colorPrincipal: #f4dc4c;
+  --colorSecundario: #14141c;
+  --colorGris: #4d4d4d;
+  --marginLeftRight: 15%;
+  --roboto: "Roboto", sans-serif;
+  --popins: "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.roboto {
+  font-family: var(--roboto);
+}
+
+.popins {
+  font-family: var(--popins);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.divTitle {
   text-align: center;
+  padding: 50px 0px;
+  font-family: var(--popins);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.upTitle {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 0.9em;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.upTitleSub {
+  background-color: var(--colorPrincipal);
+  padding: 1px 8px;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.downTitle {
+  font-weight: 600;
+  font-size: 2.6em;
+  padding-top: 7px;
 }
 
-.card {
-  padding: 2em;
+ul li {
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
 }
 
-.read-the-docs {
-  color: #888;
+ul li a {
+  text-decoration: none;
+  color: var(--colorSecundario);
+  padding: 1px 4px;
+}
+
+ul > li > a:hover {
+  background-color: var(--colorPrincipal);
 }
