@@ -1,0 +1,43 @@
+/* NAVBAR */
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: aliceblue;
+  position: fixed;
+  font-family: var(--popins);
+}
+
+.sectionNav {
+  display: flex;
+  margin: 20px var(--marginLeftRight);
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav > section > ul {
+  display: flex;
+}
+
+nav > section > ul > li {
+  padding: 0 12px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+  margin-left: -3px;
+}
+
+h4 {
+  font-size: 3em;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+ul .iconitoNav a:hover {
+  background-color: aliceblue;
+  color: var(--colorPrincipal);
+}
+
+/* TERMINA NAVBAR */
