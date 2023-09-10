@@ -1,8 +1,13 @@
 import React from "react";
-import { Navbar } from "../components";
+import { Navbar, Hello } from "../components";
 
 const Home = () => {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <Hello />
+    </>
+  );
 };
 
 export { Home };
