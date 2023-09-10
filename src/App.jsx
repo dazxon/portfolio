@@ -1,4 +1,4 @@
-import { Home } from "./views/home";
+import { Home } from "./views/Home.jsx";
 import "./App.css";
 
 function App() {
