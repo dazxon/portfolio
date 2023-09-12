@@ -3,7 +3,7 @@
   height: 60px;
   width: 100%;
   background-color: aliceblue;
-  position: fixed;
+  position: static;
   font-family: var(--popins);
 }
 

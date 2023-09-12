@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <nav class="navbar roboto">
         <section class="sectionNav">
-          <h3>CALLUM</h3>
+          <h3>AGUSTIN</h3>
 
           <ul class="liNav">
             <li>
