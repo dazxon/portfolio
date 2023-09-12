@@ -8,7 +8,7 @@ const Hello = () => {
       <section class="sectionAmarillo roboto" id="home">
         <section class="section1">
           <div class="section2">
-            <h2>HI, I'M A FULLSTACK</h2>
+            <h2>HI, I'M A FRONT & BACK END</h2>
             <section class="divDeveloper">
               <h1>DEVELOPER</h1>
               <hr />
