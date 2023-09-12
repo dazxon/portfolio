@@ -4,7 +4,7 @@ import { Navbar, Hello, AboutMe, TempModal } from "../components";
 const Home = () => {
   return (
     <>
-      {/* <TempModal /> */}
+      <TempModal />
       <Navbar />
       <Hello />
       <AboutMe />
