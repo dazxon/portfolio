@@ -35,7 +35,7 @@ const AboutMe = () => {
         <div class="divYears">
           <h2 class="number">3</h2>
           <h6 class="hSix">
-            Years of <strong>Experiance</strong>
+            Years of <strong>Experience</strong>
           </h6>
         </div>
       </section>
