@@ -35,32 +35,3 @@
 } */
 
 /* TERMINA SECTION 8 - HOW I CAN HELP */
-
-/* SECTION 10 - FOOTER */
-footer {
-  background-color: var(--colorSecundario);
-  display: flex;
-  justify-content: space-between;
-}
-
-footer > div {
-  margin: 80px var(--marginLeftRight);
-  color: aliceblue;
-}
-
-footer > div > p {
-  font-size: 700;
-}
-
-footer > div > p > span {
-  text-decoration: underline solid var(--colorPrincipal);
-  color: var(--colorPrincipal);
-}
-
-.sectionIcon,
-a {
-  padding-top: 50px;
-  color: var(--colorPrincipal);
-}
-
-/* TERMINA SECTION 10 - FOOTER */

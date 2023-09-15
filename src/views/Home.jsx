@@ -8,12 +8,13 @@ import {
   Resume,
   Interested,
   ContactForm,
+  Footer,
 } from "../components";
 
 const Home = () => {
   return (
     <>
-      {/* <TempModal /> */}
+      <TempModal />
       <Navbar />
       <Hello />
       <AboutMe />
@@ -21,6 +22,7 @@ const Home = () => {
       <Resume />
       <Interested />
       <ContactForm />
+      <Footer />
     </>
   );
 };
