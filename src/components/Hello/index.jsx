@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.hello.css";
+import profileImg from "../../assets/blank-profile.webp";
 
 const Hello = () => {
   return (
     <>
-      {" "}
       <section class="sectionAmarillo roboto" id="home">
         <section class="section1">
           <div class="section2">
@@ -21,7 +21,7 @@ const Hello = () => {
             </section>
           </div>
           <div class="divFotoPerfil">
-            <img src="images/blank-profile.webp" alt="" class="fotoPerfil" />
+            <img src={profileImg} alt="" class="fotoPerfil" />
           </div>
         </section>
       </section>
