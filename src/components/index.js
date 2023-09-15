@@ -7,6 +7,7 @@ import { WhatIDoItem } from "./WhatIDoItem";
 import { Resume } from "./Resume";
 import { Interested } from "./Interested";
 import { ContactForm } from "./ContactForm";
+import { Footer } from "./Footer";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Resume,
   Interested,
   ContactForm,
+  Footer,
 };
