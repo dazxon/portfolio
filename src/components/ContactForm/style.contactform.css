@@ -1,0 +1,77 @@
+/* SECTION 9 - FORM */
+.section9 {
+  background-color: var(--colorPrincipal);
+}
+
+.containerDivForm {
+  margin: 0 var(--marginLeftRight);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.divIzquierdoForm {
+  width: 50%;
+}
+
+.divDerechoForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section9 .containerDivForm div h2 {
+  font-size: 2.2em;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.section9 .containerDivForm div p {
+  width: 70%;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.section9 .containerDivForm div h6 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.section9 .containerDivForm div h5 {
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.section9 .containerDivForm div input {
+  background-color: var(--colorPrincipal);
+  border: none;
+  border-bottom: 1px outset rgba(255, 255, 255, 0.399);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.section9 .containerDivForm div button {
+  background-color: var(--colorSecundario);
+  color: white;
+  width: 25%;
+  font-size: 1.2em;
+  padding: 20px 0;
+}
+
+.section9 .containerDivForm div button i {
+  padding-left: 5px;
+}
+
+.divFormSociales i {
+  color: var(--colorGris);
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.textAreaForm {
+  height: 80px;
+}
+
+/* TERMINA SECTION 9 - FORM */

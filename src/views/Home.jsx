@@ -7,6 +7,7 @@ import {
   WhatIDo,
   Resume,
   Interested,
+  ContactForm,
 } from "../components";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <WhatIDo />
       <Resume />
       <Interested />
+      <ContactForm />
     </>
   );
 };
