@@ -1,0 +1,33 @@
+/* SECTION 6 - INTERESTED IN WORKING? */
+
+.section6 {
+  background-image: url(../../assets/image1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section6 div {
+  text-align: center;
+}
+
+.section6 div h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.section6 div button {
+  color: var(--colorSecundario);
+  background-color: #f4dc4c;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+/* TERMINA SECTION 6 - INTERESTED IN WORKING? */

@@ -1,0 +1,143 @@
+/* SECTION 4 - RESUME */
+.section4 {
+  padding-top: 60px;
+}
+
+.contenedorResume {
+  margin: 0 var(--marginLeftRight);
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.contenedorResume section section div hr {
+  border: none;
+  border-left: 2px solid var(--colorPrincipal);
+  height: 100%;
+  padding-right: 15px;
+}
+
+.resumeMain {
+  display: flex;
+}
+
+.myEducationMyExperience {
+  width: 50%;
+}
+
+.myEducationMyExperience h4 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+.resumeMain section div h5 {
+  font-size: 1.34em;
+  font-weight: 500;
+}
+
+.resumeMain section div h6 {
+  font-size: 1.1em;
+  padding-top: 5px;
+}
+
+.resumeMain section div p {
+  padding-top: 10px;
+  color: var(--colorGris);
+  font-weight: 400;
+}
+
+.resumeMain section hr {
+  margin: 20px 0px;
+  border: 1px outset rgba(255, 255, 255, 0.399);
+  width: 90%;
+}
+
+.sectionMySkills {
+  margin: 0 var(--marginLeftRight);
+  font-weight: 600;
+}
+
+.sectionMySkills h4 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.sectionMySkills section {
+  padding-top: 25px;
+  display: flex;
+}
+
+.sectionMySkills section div {
+  width: 50%;
+}
+
+.sectionMySkills section div div {
+  width: 100%;
+  background-color: aliceblue;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 10px;
+  display: flex;
+}
+
+.spanSkills {
+  background-color: var(--colorPrincipal);
+  height: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.barWebDesign .spanSkills {
+  width: 65%;
+}
+
+.barHtmlCss .spanSkills {
+  width: 95%;
+}
+
+.barJS .spanSkills {
+  width: 80%;
+}
+
+.barReact .spanSkills {
+  width: 70%;
+}
+
+.barAngular .spanSkills {
+  width: 60%;
+}
+
+.barBootstrap .spanSkills {
+  width: 99%;
+}
+
+.sectionMySkills section div section {
+  justify-content: space-between;
+}
+
+.mySkillsDivIzquierdo {
+  padding-right: 20px;
+}
+
+.mySkillsDivDerecho {
+  padding-left: 20px;
+}
+
+.divCv {
+  margin: 0 var(--marginLeftRight);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.buttonCv {
+  background-color: white;
+  padding: 12px 40px;
+  font-weight: 600;
+}
+
+/* TERMINA SECTION 4 - RESUME */
