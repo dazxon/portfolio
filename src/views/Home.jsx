@@ -14,11 +14,11 @@ import {
 const Home = () => {
   return (
     <>
-      <TempModal />
+      {/* <TempModal /> */}
       <Navbar />
       <Hello />
       <AboutMe />
-      <WhatIDo />
+      {/* <WhatIDo /> */}
       <Resume />
       <Interested />
       <ContactForm />

@@ -124,6 +124,10 @@ ul > li > a:hover {
       width: auto;
     }
 
+    .aboutMe {
+      height: auto;
+    }
+
     .sectionAboutMe {
       flex-direction: column;
       text-align: center;
@@ -204,6 +208,10 @@ ul > li > a:hover {
 
     .sectionIcon {
       padding: 0 0;
+    }
+
+    .flecha {
+      display: none;
     }
   }
 

@@ -1,16 +1,13 @@
 /* SECTION 3 - WHAT I DO? */
 
 .section3 {
-  padding-top: 60px;
   text-align: center;
   background-color: whitesmoke;
   font-family: var(--popins);
-  padding-bottom: 60px;
 }
 
 .divGrid {
   margin: 0 var(--marginLeftRight);
-  padding-bottom: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
