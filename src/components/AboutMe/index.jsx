@@ -3,7 +3,7 @@ import "./style.aboutme.css";
 
 const AboutMe = () => {
   return (
-    <section id="about">
+    <section className="aboutMe" id="about">
       <div class="divTitle">
         <h6 class="upTitle">
           <span class="upTitleSub">about me</span>
@@ -17,19 +17,22 @@ const AboutMe = () => {
             <span> Agustin Donalisio</span>
           </h3>
           <p>
-            I'm a <strong>systems student at ORT</strong> with experience in
-            software development. I worked at Obux before taking on the
-            challenge of becoming a <strong>Full Stack</strong> developer
-            through the intensive Bootcamp at Plataforma 5. During this program,
-            which consisted of over 800 hours, I acquired skills in key
-            technologies such as{" "}
-            <strong>MongoDB, Express.js, React.js, and Node.js</strong>, while
-            also using agile methodologies like <strong>Scrum</strong> and
-            engaging in <strong>pair programming</strong>. My experience at Obux
-            and my training in the Bootcamp have provided me with a solid
-            foundation for <strong>Full Stack</strong> development. I am now
-            actively seeking a position in the IT sector at a company that
-            values teamwork and, above all, professional growth.
+            I'm a <strong>systems student at ORT</strong> with prior experience
+            in software development. Before embarking on the journey to become a
+            <strong> Full Stack developer</strong>, I worked at
+            <strong> Obux</strong>. I undertook an intensive course at
+            Plataforma 5, which spanned over 800 hours, to acquire proficiency
+            in key technologies, including
+            <strong> MongoDB, Express.js, React.js, and Node.js</strong>. During
+            the program, I also gained exposure to agile methodologies like
+            <strong> Scrum</strong> and participated in{" "}
+            <strong>pair programming </strong>
+            sessions. My combined experience at Obux, along with the training I
+            received during the course, has furnished me with a robust
+            foundation in <strong>Full Stack development</strong>. Presently, I
+            am enthusiastically pursuing opportunities within the IT sector,
+            with a particular focus on companies that place a premium on
+            collaborative teamwork and foster continuous professional growth
           </p>
         </div>
         <div class="divYears">
