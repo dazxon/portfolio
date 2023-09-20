@@ -1,6 +1,6 @@
 /* SECTION ABOUT ME */
 .aboutMe {
-  height: 100dvh;
+  min-height: 100dvh;
   -webkit-flex-flow: column wrap;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
