@@ -14,7 +14,7 @@ import {
 const Home = () => {
   return (
     <>
-      {/* <TempModal /> */}
+      <TempModal />
       <Navbar />
       <Hello />
       <AboutMe />
