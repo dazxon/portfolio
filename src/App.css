@@ -89,8 +89,8 @@ ul > li > a:hover {
   .section1 {
     flex-direction: column-reverse;
     text-align: center;
-    height: auto;
     padding-top: 40px;
+    height: auto;
   }
 
   .divFotoPerfil {
@@ -110,8 +110,8 @@ ul > li > a:hover {
 
   .divDeveloper {
     justify-content: center;
-    clip-path: inset(50% 0 0 0);
-    margin-top: -30px;
+    clip-path: inset(40% 0 0 0);
+    margin-top: -25px;
     font-size: 0.8em;
   }
 
