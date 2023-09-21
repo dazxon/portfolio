@@ -6,6 +6,13 @@ import { ResumeItem } from "../ResumeItem";
 const Resume = () => {
   const educationArray = [
     {
+      title: "Full Stack Developer",
+      subtitle: "Plataforma 5 / 2023",
+      responsabilities: [
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
+    },
+    {
       title: "Systems",
       subtitle: "ORT Argentina / 2022 - Present",
       responsabilities: [
@@ -13,15 +20,8 @@ const Resume = () => {
       ],
     },
     {
-      title: "Full Stack Developer",
-      subtitle: "Plataforma 5 / 2023",
-      responsabilities: [
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-      ],
-    },
-    {
-      title: "Full Stack Developer",
-      subtitle: "Plataforma 5 / 2023",
+      title: "Professional Web Developer",
+      subtitle: "Universidad Tecnologica Nacional / 2021",
       responsabilities: [
         "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
       ],
@@ -30,23 +30,15 @@ const Resume = () => {
 
   const experienceArray = [
     {
-      title: "Systems",
-      subtitle: "ORT Argentina / 2022 - Present",
+      title: "Software Developer",
+      subtitle: "Obux / 2021 - 2023",
       responsabilities: [
         "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-      ],
-    },
-    {
-      title: "Full Stack Developer",
-      subtitle: "Plataforma 5 / 2023",
-      responsabilities: [
         "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-      ],
-    },
-    {
-      title: "Full Stack Developer",
-      subtitle: "Plataforma 5 / 2023",
-      responsabilities: [
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
         "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
       ],
     },
