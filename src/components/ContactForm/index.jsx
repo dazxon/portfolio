@@ -35,13 +35,19 @@ const ContactForm = () => {
           <h2>Estimate your Project?</h2>
 
           <h5>What is your name:</h5>
-          <input type="text" name="" id="" />
+          <input type="text" name="" id="" className="inputs" maxLength="40" />
 
           <h5>Your Email Address:</h5>
-          <input type="text" name="" id="" />
+          <input
+            type="text"
+            name=""
+            id=""
+            className="inputs"
+            maxLength={"50"}
+          />
 
           <h5>How can i help you?:</h5>
-          <input type="textarea" name="" id="" class="textAreaForm" />
+          <textarea type="textarea" className="inputs" rows="" />
 
           <button class="buttonWorks">
             Send

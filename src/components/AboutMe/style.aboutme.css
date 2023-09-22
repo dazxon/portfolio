@@ -1,4 +1,18 @@
 /* SECTION ABOUT ME */
+.aboutMe {
+  min-height: 100dvh;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
 
 section > div > p {
   font-size: 1em;
@@ -28,12 +42,11 @@ section > div > h3 > span {
   display: flex;
   margin: 0 var(--marginLeftRight);
   text-align: justify;
+  margin-top: 50px;
 }
 
 .divAboutMeBaseline {
   width: 100%;
-  margin-top: 40px;
-  margin-bottom: 80px;
 }
 
 section > section > div > p {
@@ -64,15 +77,10 @@ section > section > div > span {
   font-size: 8em;
   color: var(--colorGris);
   font-weight: 500;
-  margin-bottom: -20px;
 }
 
 .hSix {
   font-size: 1.7em;
-}
-
-.prueba {
-  margin-top: -20px;
 }
 
 section > div > h6 > span {

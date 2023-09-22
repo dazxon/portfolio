@@ -1,15 +1,18 @@
 /* NAVBAR */
 .navbar {
-  height: 60px;
-  width: 100%;
+  height: 6dvh;
+  min-height: 20px;
   background-color: aliceblue;
   position: static;
-  font-family: var(--popins);
+  font-family: var(--popins) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .sectionNav {
   display: flex;
-  margin: 20px var(--marginLeftRight);
+  margin: 0 var(--marginLeftRight);
   flex-direction: row;
   justify-content: space-between;
 }

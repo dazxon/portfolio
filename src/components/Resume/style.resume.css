@@ -1,6 +1,7 @@
 /* SECTION 4 - RESUME */
 .section4 {
   padding-top: 60px;
+  background-color: whitesmoke;
 }
 
 .contenedorResume {
@@ -22,6 +23,10 @@
   display: flex;
 }
 
+.resumeMain section {
+  width: 90%;
+}
+
 .myEducationMyExperience {
   width: 50%;
 }
@@ -31,27 +36,9 @@
   font-weight: 600;
   padding-bottom: 25px;
 }
-
-.resumeMain section div h5 {
-  font-size: 1.34em;
-  font-weight: 500;
-}
-
-.resumeMain section div h6 {
-  font-size: 1.1em;
-  padding-top: 5px;
-}
-
-.resumeMain section div p {
-  padding-top: 10px;
-  color: var(--colorGris);
-  font-weight: 400;
-}
-
-.resumeMain section hr {
+.hrItem {
   margin: 20px 0px;
   border: 1px outset rgba(255, 255, 255, 0.399);
-  width: 90%;
 }
 
 .sectionMySkills {
@@ -130,8 +117,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  padding: 60px 60px;
 }
 
 .buttonCv {

@@ -9,13 +9,22 @@
 }
 
 .modal-content {
-  text-align: center;
   background-color: #fff;
   margin: 20vh auto;
   padding: 10px;
   border: 1px solid #888;
-  width: 30%;
   position: relative;
+}
+
+.moved-modal {
+  width: auto;
+  transform: translate(0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px;
+}
+
+.moved-modal-content {
+  margin: 0;
 }
 
 @media (max-width: 1525px) {

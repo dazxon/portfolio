@@ -24,11 +24,11 @@ const Hello = () => {
             <img src={profileImg} alt="" class="fotoPerfil" />
           </div>
         </section>
-      </section>
-      <section class="flecha">
-        <a href="#about" class="aboutMe" id="about">
-          <i class="fa-solid fa-arrow-down"></i>
-        </a>
+        <section class="flecha">
+          <a href="#about" class="arrow" id="about">
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </section>
       </section>
     </>
   );

@@ -18,7 +18,7 @@ const Home = () => {
       <Navbar />
       <Hello />
       <AboutMe />
-      <WhatIDo />
+      {/* <WhatIDo /> */}
       <Resume />
       <Interested />
       <ContactForm />
