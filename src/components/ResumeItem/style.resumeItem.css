@@ -1,0 +1,19 @@
+.container h5 {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.container h6 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.container ul li {
+  color: var(--colorGris);
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.container ul li ::first-letter {
+  text-transform: uppercase;
+}

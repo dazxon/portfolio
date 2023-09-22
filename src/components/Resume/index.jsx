@@ -1,8 +1,49 @@
 import React from "react";
 import "./style.resume.css";
 import cv from "../../assets/AgustinDonalisio_CV_EN.pdf";
+import { ResumeItem } from "../ResumeItem";
 
 const Resume = () => {
+  const educationArray = [
+    {
+      title: "Full Stack Developer",
+      subtitle: "Plataforma 5 / 2023",
+      responsabilities: [
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
+    },
+    {
+      title: "Systems",
+      subtitle: "ORT Argentina / 2022 - Present",
+      responsabilities: [
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
+    },
+    {
+      title: "Professional Web Developer",
+      subtitle: "Universidad Tecnologica Nacional / 2021",
+      responsabilities: [
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
+    },
+  ];
+
+  const experienceArray = [
+    {
+      title: "Software Developer",
+      subtitle: "Obux / 2021 - 2023",
+      responsabilities: [
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
+    },
+  ];
+
   const handleDownloadCv = () => {
     const link = document.createElement("a");
     link.href = cv;
@@ -33,39 +74,19 @@ const Resume = () => {
             <div>
               <hr />
             </div>
-            <section>
-              <div>
-                <h5>Master in computer engineering</h5>
-                <h6>Harvard University / 2015 - 2017</h6>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                  <br />
-                  Lorem ipsum has been the dummy text.
-                </p>
-              </div>
-              <hr />
-              <div>
-                <h5>Bachelor in Computer Engineering</h5>
-                <h6>University of California / 2014 - 2015</h6>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                  <br />
-                  Lorem ipsum has been the dummy text.
-                </p>
-              </div>
-              <hr />
-              <div>
-                <h5>Computer Science</h5>
-                <h6>International University / 2013 - 2014</h6>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                  <br />
-                  Lorem ipsum has been the dummy text.
-                </p>
-              </div>
+            <section className="container">
+              {educationArray.map((e, i) => {
+                if (i > 0) {
+                  return (
+                    <>
+                      <hr key={i} className="hrItem" />
+                      <ResumeItem key={i} data={e} />
+                    </>
+                  );
+                } else {
+                  return <ResumeItem key={i} data={e} />;
+                }
+              })}
             </section>
           </section>
         </section>
@@ -81,38 +102,18 @@ const Resume = () => {
               <hr />
             </div>
             <section>
-              <div>
-                <h5>Sr. Font End Developer</h5>
-                <h6>Apple In / 2020 - current</h6>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                  <br />
-                  Lorem ipsum has been the dummy text.
-                </p>
-              </div>
-              <hr />
-              <div>
-                <h5>Jr. Font End Developer</h5>
-                <h6>Dribbble Inc / 2018 - 2020</h6>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                  <br />
-                  Lorem ipsum has been the dummy text.
-                </p>
-              </div>
-              <hr />
-              <div>
-                <h5>HTML Developer</h5>
-                <h6>Adobe Inc / 2017 - 2018</h6>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                  <br />
-                  Lorem ipsum has been the dummy text.
-                </p>
-              </div>
+              {experienceArray.map((e, i) => {
+                if (i > 0) {
+                  return (
+                    <>
+                      <hr key={i} className="hrItem" />
+                      <ResumeItem key={i} data={e} />
+                    </>
+                  );
+                } else {
+                  return <ResumeItem key={i} data={e} />;
+                }
+              })}
             </section>
           </section>
         </section>

@@ -40,16 +40,16 @@
 }
 
 .section9 .containerDivForm div h5 {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-weight: 400;
 }
 
-.section9 .containerDivForm div input {
+.inputs {
   background-color: var(--colorPrincipal);
   border: none;
   border-bottom: 1px outset rgba(255, 255, 255, 0.399);
-  padding-bottom: 20px;
   margin-bottom: 20px;
+  font-size: 2em;
 }
 
 .section9 .containerDivForm div button {
@@ -68,10 +68,6 @@
   color: var(--colorGris);
   padding-right: 10px;
   font-size: 30px;
-}
-
-.textAreaForm {
-  height: 80px;
 }
 
 /* TERMINA SECTION 9 - FORM */

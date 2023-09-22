@@ -17,8 +17,7 @@ section > div > section > hr {
 }
 
 .section1 {
-  padding-top: 60px;
-  height: 800px;
+  height: 100dvh;
   display: flex;
   flex-direction: row;
   margin: 0 var(--marginLeftRight);
@@ -73,12 +72,11 @@ section > div > section > a {
 
 .flecha {
   margin-top: -30px;
-  margin-bottom: 100px;
   width: 100%;
   text-align: center;
 }
 
-.aboutMe {
+.arrow {
   color: black;
 }
 
