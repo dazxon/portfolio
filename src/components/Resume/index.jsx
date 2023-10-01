@@ -8,23 +8,17 @@ const Resume = () => {
     {
       title: "Full Stack Developer",
       subtitle: "Plataforma 5 / 2023",
-      responsabilities: [
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-      ],
+      responsabilities: [],
     },
     {
       title: "Systems",
       subtitle: "ORT Argentina / 2022 - Present",
-      responsabilities: [
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-      ],
+      responsabilities: [],
     },
     {
       title: "Professional Web Developer",
       subtitle: "Universidad Tecnologica Nacional / 2021",
-      responsabilities: [
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-      ],
+      responsabilities: [],
     },
   ];
 
@@ -33,13 +27,10 @@ const Resume = () => {
       title: "Software Developer",
       subtitle: "Obux / 2021 - 2023",
       responsabilities: [
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        "Client Interaction: Active and effective communication with clients to understand their requirements, gather feedback, and ensure their needs are integrated into product development.",
+        "Team Collaboration: Close collaboration with other team members, participation in planning meetings, code reviews, and support in development activities.",
+        "Maintenance and Optimization: Continuous maintenance of existing applications and problem-solving.",
+        "Application Development: Designing and building web and mobile applications, encompassing the creation of comprehensive solutions for software development projects.",
       ],
     },
   ];
@@ -120,11 +111,10 @@ const Resume = () => {
       </section>
 
       {/* <!--MY SKILLS--> */}
-      <section class="sectionMySkills popins">
+      {/* <section class="sectionMySkills popins">
         <h4>My Skills</h4>
 
         <section>
-          {/* <!--DIV IZQUIERDO--> */}
           <div class="mySkillsDivIzquierdo">
             <section>
               <p>Web Design</p>
@@ -154,7 +144,6 @@ const Resume = () => {
             </div>
           </div>
 
-          {/* <!--DIV DERECHO--> */}
           <div class="mySkillsDivDerecho">
             <section>
               <p>React JS</p>
@@ -184,7 +173,7 @@ const Resume = () => {
             </div>
           </div>
         </section>
-      </section>
+      </section> */}
 
       {/* <!--BUTTON CV--> */}
       <div class="divCv">
