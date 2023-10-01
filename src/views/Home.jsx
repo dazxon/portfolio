@@ -3,7 +3,6 @@ import {
   Navbar,
   Hello,
   AboutMe,
-  TempModal,
   WhatIDo,
   Resume,
   Interested,
@@ -14,13 +13,12 @@ import {
 const Home = () => {
   return (
     <>
-      <TempModal />
       <Navbar />
       <Hello />
       <AboutMe />
       {/* <WhatIDo /> */}
       <Resume />
-      <Interested />
+      {/* <Interested /> */}
       <ContactForm />
       <Footer />
     </>

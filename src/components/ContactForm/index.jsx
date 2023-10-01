@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.contactform.css";
 
 const ContactForm = () => {
+  const [sended, setSended] = useState(false);
+
+  useEffect(() => {
+    setSended(false);
+  }, []);
+
   return (
     <section class="section9 popins" id="contact">
       <section class="containerDivForm">
@@ -31,29 +37,43 @@ const ContactForm = () => {
         </div>
 
         {/* <!--DIV DERECHO--> */}
-        <div class="divDerechoForm">
-          <h2>Estimate your Project?</h2>
 
-          <h5>What is your name:</h5>
-          <input type="text" name="" id="" className="inputs" maxLength="40" />
+        {sended ? (
+          <div class="divDerechoForm">
+            <h2>Estimate your Project?</h2>
 
-          <h5>Your Email Address:</h5>
-          <input
-            type="text"
-            name=""
-            id=""
-            className="inputs"
-            maxLength={"50"}
-          />
+            <h5>What is your name:</h5>
+            <input
+              type="text"
+              name=""
+              id=""
+              className="inputs"
+              maxLength="40"
+            />
 
-          <h5>How can i help you?:</h5>
-          <textarea type="textarea" className="inputs" rows="" />
+            <h5>Your Email Address:</h5>
+            <input
+              type="text"
+              name=""
+              id=""
+              className="inputs"
+              maxLength={"50"}
+            />
 
-          <button class="buttonWorks">
-            Send
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>
+            <h5>How can i help you?:</h5>
+            <textarea type="textarea" className="inputs" rows="" />
+
+            <button class="buttonWorks" onClick={() => setSended((e) => !e)}>
+              Send
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        ) : (
+          <div className="ty-div">
+            <h3>Thanks for reaching out!</h3>
+            <h6>Your message has been received. We'll get back to you soon.</h6>
+          </div>
+        )}
       </section>
     </section>
   );

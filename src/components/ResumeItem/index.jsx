@@ -6,7 +6,6 @@ const ResumeItem = ({ data }) => {
 
   useEffect(() => {
     setItemData(data);
-    console.log(data);
   }, [data]);
 
   if (!itemData) return;
@@ -14,11 +13,13 @@ const ResumeItem = ({ data }) => {
     <div className="container">
       <h5>{itemData?.title}</h5>
       <h6>{itemData?.subtitle}</h6>
-      {itemData?.responsabilities?.length && (
+      {itemData?.responsabilities?.length > 0 && (
         <ul>
           {itemData?.responsabilities?.map((resp) => (
-            <li>
-              <p>{resp}</p>
+            <li style={{ paddingTop: "5 px" }}>
+              <p>
+                <strong>{resp.split(":")[0]}:</strong> {resp.split(":")[1]}
+              </p>
             </li>
           ))}
         </ul>
