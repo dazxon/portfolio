@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./style.contactform.css";
 
 const ContactForm = () => {
   const [sended, setSended] = useState(false);
 
-  useEffect(() => {
-    setSended(false);
-  }, []);
+  const handleSend = () => {
+    setSended((e) => !e);
+  };
 
   return (
     <section class="section9 popins" id="contact">
@@ -38,9 +38,9 @@ const ContactForm = () => {
 
         {/* <!--DIV DERECHO--> */}
 
-        {sended ? (
+        {!sended ? (
           <div class="divDerechoForm">
-            <h2>Estimate your Project?</h2>
+            <h2>Have a project in mind?</h2>
 
             <h5>What is your name:</h5>
             <input
@@ -58,12 +58,17 @@ const ContactForm = () => {
               id=""
               className="inputs"
               maxLength={"50"}
+              required
             />
 
             <h5>How can i help you?:</h5>
             <textarea type="textarea" className="inputs" rows="" />
 
-            <button class="buttonWorks" onClick={() => setSended((e) => !e)}>
+            <button
+              type="submit"
+              class="buttonWorks"
+              onClick={() => handleSend()}
+            >
               Send
               <i class="fa-solid fa-arrow-right"></i>
             </button>
