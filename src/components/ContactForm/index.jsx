@@ -42,7 +42,7 @@ const ContactForm = () => {
           <div class="divDerechoForm">
             <h2>Have a project in mind?</h2>
 
-            <h5>What is your name:</h5>
+            <h5>What is your name: </h5>
             <input
               type="text"
               name=""
