@@ -339,24 +339,6 @@ section > div > h6 > span {
   border: 1px outset rgba(255, 255, 255, 0.399);
 }
 
-.divCv {
-  margin: 0 var(--marginLeftRight);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 60px 60px;
-}
-
-.buttonCv {
-  background-color: white;
-  padding: 12px 40px;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--colorSecundario);
-  display: inline-block;
-  cursor: pointer;
-}
-
 .container h5 {
   font-size: 1.4em;
   font-weight: 500;

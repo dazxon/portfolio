@@ -19,8 +19,7 @@ External resources loaded from CDN:
 .
 ├── index.html              # Single-page site
 ├── css/styles.css          # All styles
-├── images/                 # Profile picture, favicon
-└── cv/                     # CV PDF
+└── images/                 # Profile picture, favicon
 ```
 
 ## Running locally
