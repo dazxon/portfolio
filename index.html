@@ -20,218 +20,198 @@
     <script src="https://kit.fontawesome.com/66a0eba84c.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar roboto">
-      <section class="sectionNav">
-        <h3>AGUSTIN</h3>
+    <header class="header">
+      <div class="header__container">
+        <h3 class="header__logo">AGUSTIN</h3>
 
-        <ul class="liNav">
-          <li><a href="#home">home</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#resume">resume</a></li>
-          <li><a href="#contact">contact</a></li>
+        <nav aria-label="Main navigation">
+          <ul class="header__menu">
+            <li><a class="header__menu-link" href="#home">home</a></li>
+            <li><a class="header__menu-link" href="#about">about</a></li>
+            <li><a class="header__menu-link" href="#resume">resume</a></li>
+            <li><a class="header__menu-link" href="#contact">contact</a></li>
+          </ul>
+        </nav>
+
+        <ul class="header__social" aria-label="Social media">
+          <li><a class="header__social-link" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a class="header__social-link" href="#" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a class="header__social-link" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
         </ul>
+      </div>
+    </header>
 
-        <ul>
-          <li class="iconitoNav"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-          <li class="iconitoNav"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-          <li class="iconitoNav"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-        </ul>
-      </section>
-    </nav>
-
-    <section class="sectionAmarillo roboto" id="home">
-      <section class="section1">
-        <div class="section2">
-          <h2>HI, I'M A FRONT &amp; BACK END</h2>
-          <section class="divDeveloper">
-            <h1>DEVELOPER</h1>
-            <hr />
-          </section>
-          <h6>based in Buenos Aires, ARG.</h6>
-          <section class="sectionButtons">
-            <button class="buttonWorks" onclick="document.getElementById('resume').scrollIntoView()">View My Works</button>
-            <a href="#contact">Contact Me</a>
-            <i class="fa-solid fa-circle-arrow-down"></i>
-          </section>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <h2 class="hero__intro">HI, I'M A FRONT &amp; BACK END</h2>
+            <div class="hero__title-row">
+              <h1 class="hero__title">DEVELOPER</h1>
+              <span class="hero__divider" aria-hidden="true"></span>
+            </div>
+            <p class="hero__location">based in Buenos Aires, ARG.</p>
+            <div class="hero__actions">
+              <a class="hero__cta" href="#resume">View My Works</a>
+              <a class="hero__contact-link" href="#contact">Contact Me</a>
+              <i class="fa-solid fa-circle-arrow-down" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="hero__photo">
+            <img class="hero__photo-img" src="images/profile.webp" alt="Profile picture of Agustin Donalisio" />
+          </div>
         </div>
-        <div class="divFotoPerfil">
-          <img src="images/profile.webp" alt="Agustin Donalisio" class="fotoPerfil" />
-        </div>
-      </section>
-      <section class="flecha">
-        <a href="#about" class="arrow">
-          <i class="fa-solid fa-arrow-down"></i>
+        <a class="hero__scroll-down" href="#about" aria-label="Scroll to about section">
+          <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
         </a>
       </section>
-    </section>
 
-    <section class="aboutMe" id="about">
-      <div class="divTitle">
-        <h6 class="upTitle"><span class="upTitleSub">about me</span></h6>
-        <h2 class="downTitle">Know Me More</h2>
-      </div>
+      <section class="about" id="about">
+        <header class="section-header">
+          <p class="section-header__eyebrow"><span class="section-header__eyebrow-text">about me</span></p>
+          <h2 class="section-header__title">Know Me More</h2>
+        </header>
 
-      <section class="sectionAboutMe popins">
-        <div class="divHi">
-          <h3>Hi, I'm <span>Agustin Donalisio</span></h3>
-          <p>
-            I'm a <strong>systems student at ORT</strong> with prior experience in software development.
-            Before embarking on the journey to become a <strong>Full Stack developer</strong>, I worked at
-            <strong>Obux</strong>. I undertook an intensive course at Plataforma 5, which spanned over 800
-            hours, to acquire proficiency in key technologies, including
-            <strong>MongoDB, Express.js, React.js, and Node.js</strong>. During the program, I also gained
-            exposure to agile methodologies like <strong>Scrum</strong> and participated in
-            <strong>pair programming</strong> sessions. My combined experience at Obux, along with the
-            training I received during the course, has furnished me with a robust foundation in
-            <strong>Full Stack development</strong>. Presently, I am enthusiastically pursuing
-            opportunities within the IT sector, with a particular focus on companies that place a premium
-            on collaborative teamwork and foster continuous professional growth
-          </p>
-        </div>
-        <div class="divYears">
-          <h2 class="number">3</h2>
-          <h6 class="hSix">Years of <strong>Experience</strong></h6>
-        </div>
-      </section>
-
-      <section class="sectionBaseline popins">
-        <div class="divAboutMeBaseline">
-          <p>Name:</p>
-          <span>Agustin Donalisio</span>
-        </div>
-        <div class="divAboutMeBaseline">
-          <p>Email:</p>
-          <span class="spanEmail">dev@adonalisio.com</span>
-        </div>
-        <div class="divAboutMeBaseline">
-          <p>Date of birth:</p>
-          <span>10 november, 1996</span>
-        </div>
-        <div class="divAboutMeBaseline">
-          <p>From:</p>
-          <span>Buenos Aires, ARG</span>
-        </div>
-      </section>
-    </section>
-
-    <section class="section4" id="resume">
-      <div class="divTitle">
-        <h6 class="upTitle"><span class="upTitleSub">Resume</span></h6>
-        <h2 class="downTitle">A summary of My Resume</h2>
-      </div>
-
-      <section class="contenedorResume popins">
-        <section class="myEducationMyExperience">
-          <h4>My Education</h4>
-          <section class="resumeMain">
-            <div><hr /></div>
-            <section class="container">
-              <div class="container">
-                <h5>Full Stack Developer</h5>
-                <h6>Plataforma 5 / 2023</h6>
-              </div>
-              <hr class="hrItem" />
-              <div class="container">
-                <h5>Systems</h5>
-                <h6>ORT Argentina / 2022 - Present</h6>
-              </div>
-              <hr class="hrItem" />
-              <div class="container">
-                <h5>Professional Web Developer</h5>
-                <h6>Universidad Tecnologica Nacional / 2021</h6>
-              </div>
-            </section>
-          </section>
-        </section>
-
-        <section class="myEducationMyExperience">
-          <h4>My Experience</h4>
-          <section class="resumeMain">
-            <div><hr /></div>
-            <section>
-              <div class="container">
-                <h5>Software Developer</h5>
-                <h6>Obux / 2021 - 2023</h6>
-                <ul>
-                  <li><p><strong>Client Interaction:</strong> Active and effective communication with clients to understand their requirements, gather feedback, and ensure their needs are integrated into product development.</p></li>
-                  <li><p><strong>Team Collaboration:</strong> Close collaboration with other team members, participation in planning meetings, code reviews, and support in development activities.</p></li>
-                  <li><p><strong>Maintenance and Optimization:</strong> Continuous maintenance of existing applications and problem-solving.</p></li>
-                  <li><p><strong>Application Development:</strong> Designing and building web and mobile applications, encompassing the creation of comprehensive solutions for software development projects.</p></li>
-                </ul>
-              </div>
-            </section>
-          </section>
-        </section>
-      </section>
-
-    </section>
-
-    <section class="section9 popins" id="contact">
-      <section class="containerDivForm">
-        <div class="divIzquierdoForm">
-          <h2>Let's get in touch</h2>
-          <p>
-            I enjoy discussing new projects and design challenges. Please share as much info, as possible
-            so we can get the most out of our first catch-up.
-          </p>
-
-          <h6>Living In:</h6>
-          <p>Capital Federal, Buenos Aires, ARG.</p>
-
-          <h6>Call:</h6>
-          <p>(+54) 11 5555 5555</p>
-
-          <div class="divFormSociales">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-light fa-basketball"></i>
+        <div class="about__intro">
+          <div class="about__bio">
+            <h3 class="about__bio-greeting">Hi, I'm <span class="about__bio-name">Agustin Donalisio</span></h3>
+            <p class="about__bio-text">
+              I'm a <strong>systems student at ORT</strong> with prior experience in software development.
+              Before embarking on the journey to become a <strong>Full Stack developer</strong>, I worked at
+              <strong>Obux</strong>. I undertook an intensive course at Plataforma 5, which spanned over 800
+              hours, to acquire proficiency in key technologies, including
+              <strong>MongoDB, Express.js, React.js, and Node.js</strong>. During the program, I also gained
+              exposure to agile methodologies like <strong>Scrum</strong> and participated in
+              <strong>pair programming</strong> sessions. My combined experience at Obux, along with the
+              training I received during the course, has furnished me with a robust foundation in
+              <strong>Full Stack development</strong>. Presently, I am enthusiastically pursuing
+              opportunities within the IT sector, with a particular focus on companies that place a premium
+              on collaborative teamwork and foster continuous professional growth
+            </p>
+          </div>
+          <div class="about__years">
+            <p class="about__years-number">3</p>
+            <p class="about__years-label">Years of <strong>Experience</strong></p>
           </div>
         </div>
 
-        <form class="divDerechoForm" onsubmit="return sendMail(event)">
-          <h2>Have a project in mind?</h2>
-
-          <h5>What is your name:</h5>
-          <input type="text" class="inputs" maxlength="40" required />
-
-          <h5>Your Email Address:</h5>
-          <input type="email" class="inputs" maxlength="50" required />
-
-          <h5>How can i help you?:</h5>
-          <textarea class="inputs" rows="3" required></textarea>
-
-          <button type="submit" class="buttonWorks">
-            Send<i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </form>
-      </section>
-    </section>
-
-    <footer class="popins">
-      <div>
-        <p>Copyright &#169; <span>Agustin</span>. All Rights Reserved</p>
-      </div>
-
-      <section class="sectionIcon">
-        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        <dl class="about__details">
+          <div class="about__detail">
+            <dt class="about__detail-label">Name:</dt>
+            <dd class="about__detail-value">Agustin Donalisio</dd>
+          </div>
+          <div class="about__detail">
+            <dt class="about__detail-label">Email:</dt>
+            <dd class="about__detail-value about__detail-value--email">dev@adonalisio.com</dd>
+          </div>
+          <div class="about__detail">
+            <dt class="about__detail-label">Date of birth:</dt>
+            <dd class="about__detail-value">10 november, 1996</dd>
+          </div>
+          <div class="about__detail">
+            <dt class="about__detail-label">From:</dt>
+            <dd class="about__detail-value">Buenos Aires, ARG</dd>
+          </div>
+        </dl>
       </section>
 
-      <div>
-        <p>Designed by <span>Agustin Donalisio</span></p>
-      </div>
+      <section class="resume" id="resume">
+        <header class="section-header">
+          <p class="section-header__eyebrow"><span class="section-header__eyebrow-text">Resume</span></p>
+          <h2 class="section-header__title">A summary of My Resume</h2>
+        </header>
+
+        <div class="resume__columns">
+          <div class="resume__column">
+            <h3 class="resume__column-title">My Education</h3>
+            <ol class="resume__list">
+              <li class="resume__item">
+                <h4 class="resume__item-title">Full Stack Developer</h4>
+                <p class="resume__item-subtitle">Plataforma 5 / 2023</p>
+              </li>
+              <li class="resume__item">
+                <h4 class="resume__item-title">Systems</h4>
+                <p class="resume__item-subtitle">ORT Argentina / 2022 - Present</p>
+              </li>
+              <li class="resume__item">
+                <h4 class="resume__item-title">Professional Web Developer</h4>
+                <p class="resume__item-subtitle">Universidad Tecnologica Nacional / 2021</p>
+              </li>
+            </ol>
+          </div>
+
+          <div class="resume__column">
+            <h3 class="resume__column-title">My Experience</h3>
+            <ol class="resume__list">
+              <li class="resume__item">
+                <h4 class="resume__item-title">Software Developer</h4>
+                <p class="resume__item-subtitle">Obux / 2021 - 2023</p>
+                <ul class="resume__item-tasks">
+                  <li><strong>Client Interaction:</strong> Active and effective communication with clients to understand their requirements, gather feedback, and ensure their needs are integrated into product development.</li>
+                  <li><strong>Team Collaboration:</strong> Close collaboration with other team members, participation in planning meetings, code reviews, and support in development activities.</li>
+                  <li><strong>Maintenance and Optimization:</strong> Continuous maintenance of existing applications and problem-solving.</li>
+                  <li><strong>Application Development:</strong> Designing and building web and mobile applications, encompassing the creation of comprehensive solutions for software development projects.</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__container">
+          <div class="contact__info">
+            <h2 class="contact__info-title">Let's get in touch</h2>
+            <p class="contact__info-text">
+              I enjoy discussing new projects and design challenges. Please share as much info, as possible
+              so we can get the most out of our first catch-up.
+            </p>
+
+            <p class="contact__info-label">Living In:</p>
+            <p class="contact__info-text">Capital Federal, Buenos Aires, ARG.</p>
+
+            <p class="contact__info-label">Call:</p>
+            <p class="contact__info-text">(+54) 11 5555 5555</p>
+
+            <ul class="contact__social" aria-label="Social media">
+              <li><a class="contact__social-link" href="#" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a class="contact__social-link" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a class="contact__social-link" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a class="contact__social-link" href="#" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+              <li><a class="contact__social-link" href="#" aria-label="Dribbble"><i class="fa-light fa-basketball" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+
+          <form class="contact__form" id="contact-form">
+            <h2 class="contact__form-title">Have a project in mind?</h2>
+
+            <label class="contact__form-label" for="contact-name">What is your name:</label>
+            <input class="contact__form-input" id="contact-name" name="name" type="text" maxlength="40" required />
+
+            <label class="contact__form-label" for="contact-email">Your Email Address:</label>
+            <input class="contact__form-input" id="contact-email" name="email" type="email" maxlength="50" required />
+
+            <label class="contact__form-label" for="contact-message">How can i help you?:</label>
+            <textarea class="contact__form-input" id="contact-message" name="message" rows="3" required></textarea>
+
+            <button class="contact__form-submit" type="submit">
+              Send<i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">Copyright &#169; <span class="footer__highlight">Agustin</span>. All Rights Reserved</p>
+
+      <a class="footer__top-link" href="#home" aria-label="Back to top">
+        <i class="fa-solid fa-angle-up" aria-hidden="true"></i>
+      </a>
+
+      <p class="footer__credit">Designed by <span class="footer__highlight">Agustin Donalisio</span></p>
     </footer>
 
-    <script>
-      function sendMail(e) {
-        e.preventDefault();
-        const form = e.target;
-        const [name, email, msg] = form.querySelectorAll("input, textarea");
-        const body = encodeURIComponent(`${msg.value}\n\nFrom: ${name.value} <${email.value}>`);
-        window.location.href = `mailto:dev@adonalisio.com?subject=Portfolio%20Contact&body=${body}`;
-        return false;
-      }
-    </script>
+    <script src="js/contact.js" defer></script>
   </body>
 </html>
