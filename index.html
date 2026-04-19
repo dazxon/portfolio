@@ -2,23 +2,239 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Flag_of_Argentina.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--FONTS-->
+    <meta name="description" content="Agustin Donalisio — Full Stack Developer based in Buenos Aires, Argentina." />
+    <title>Agustin Donalisio</title>
+
+    <link rel="icon" type="image/svg+xml" href="images/flag-ar.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/66a0eba84c.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Agustin</title>
+
+    <script src="https://kit.fontawesome.com/66a0eba84c.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <nav class="navbar roboto">
+      <section class="sectionNav">
+        <h3>AGUSTIN</h3>
+
+        <ul class="liNav">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#resume">resume</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+
+        <ul>
+          <li class="iconitoNav"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li class="iconitoNav"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="iconitoNav"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <section class="sectionAmarillo roboto" id="home">
+      <section class="section1">
+        <div class="section2">
+          <h2>HI, I'M A FRONT &amp; BACK END</h2>
+          <section class="divDeveloper">
+            <h1>DEVELOPER</h1>
+            <hr />
+          </section>
+          <h6>based in Buenos Aires, ARG.</h6>
+          <section class="sectionButtons">
+            <button class="buttonWorks" onclick="document.getElementById('resume').scrollIntoView()">View My Works</button>
+            <a href="#contact">Contact Me</a>
+            <i class="fa-solid fa-circle-arrow-down"></i>
+          </section>
+        </div>
+        <div class="divFotoPerfil">
+          <img src="images/profile.webp" alt="Agustin Donalisio" class="fotoPerfil" />
+        </div>
+      </section>
+      <section class="flecha">
+        <a href="#about" class="arrow">
+          <i class="fa-solid fa-arrow-down"></i>
+        </a>
+      </section>
+    </section>
+
+    <section class="aboutMe" id="about">
+      <div class="divTitle">
+        <h6 class="upTitle"><span class="upTitleSub">about me</span></h6>
+        <h2 class="downTitle">Know Me More</h2>
+      </div>
+
+      <section class="sectionAboutMe popins">
+        <div class="divHi">
+          <h3>Hi, I'm <span>Agustin Donalisio</span></h3>
+          <p>
+            I'm a <strong>systems student at ORT</strong> with prior experience in software development.
+            Before embarking on the journey to become a <strong>Full Stack developer</strong>, I worked at
+            <strong>Obux</strong>. I undertook an intensive course at Plataforma 5, which spanned over 800
+            hours, to acquire proficiency in key technologies, including
+            <strong>MongoDB, Express.js, React.js, and Node.js</strong>. During the program, I also gained
+            exposure to agile methodologies like <strong>Scrum</strong> and participated in
+            <strong>pair programming</strong> sessions. My combined experience at Obux, along with the
+            training I received during the course, has furnished me with a robust foundation in
+            <strong>Full Stack development</strong>. Presently, I am enthusiastically pursuing
+            opportunities within the IT sector, with a particular focus on companies that place a premium
+            on collaborative teamwork and foster continuous professional growth
+          </p>
+        </div>
+        <div class="divYears">
+          <h2 class="number">3</h2>
+          <h6 class="hSix">Years of <strong>Experience</strong></h6>
+        </div>
+      </section>
+
+      <section class="sectionBaseline popins">
+        <div class="divAboutMeBaseline">
+          <p>Name:</p>
+          <span>Agustin Donalisio</span>
+        </div>
+        <div class="divAboutMeBaseline">
+          <p>Email:</p>
+          <span class="spanEmail">dev@adonalisio.com</span>
+        </div>
+        <div class="divAboutMeBaseline">
+          <p>Date of birth:</p>
+          <span>10 november, 1996</span>
+        </div>
+        <div class="divAboutMeBaseline">
+          <p>From:</p>
+          <span>Buenos Aires, ARG</span>
+        </div>
+      </section>
+    </section>
+
+    <section class="section4" id="resume">
+      <div class="divTitle">
+        <h6 class="upTitle"><span class="upTitleSub">Resume</span></h6>
+        <h2 class="downTitle">A summary of My Resume</h2>
+      </div>
+
+      <section class="contenedorResume popins">
+        <section class="myEducationMyExperience">
+          <h4>My Education</h4>
+          <section class="resumeMain">
+            <div><hr /></div>
+            <section class="container">
+              <div class="container">
+                <h5>Full Stack Developer</h5>
+                <h6>Plataforma 5 / 2023</h6>
+              </div>
+              <hr class="hrItem" />
+              <div class="container">
+                <h5>Systems</h5>
+                <h6>ORT Argentina / 2022 - Present</h6>
+              </div>
+              <hr class="hrItem" />
+              <div class="container">
+                <h5>Professional Web Developer</h5>
+                <h6>Universidad Tecnologica Nacional / 2021</h6>
+              </div>
+            </section>
+          </section>
+        </section>
+
+        <section class="myEducationMyExperience">
+          <h4>My Experience</h4>
+          <section class="resumeMain">
+            <div><hr /></div>
+            <section>
+              <div class="container">
+                <h5>Software Developer</h5>
+                <h6>Obux / 2021 - 2023</h6>
+                <ul>
+                  <li><p><strong>Client Interaction:</strong> Active and effective communication with clients to understand their requirements, gather feedback, and ensure their needs are integrated into product development.</p></li>
+                  <li><p><strong>Team Collaboration:</strong> Close collaboration with other team members, participation in planning meetings, code reviews, and support in development activities.</p></li>
+                  <li><p><strong>Maintenance and Optimization:</strong> Continuous maintenance of existing applications and problem-solving.</p></li>
+                  <li><p><strong>Application Development:</strong> Designing and building web and mobile applications, encompassing the creation of comprehensive solutions for software development projects.</p></li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <div class="divCv">
+        <a class="buttonCv popins" href="cv/AgustinDonalisio_CV_EN.pdf" download>Download CV</a>
+      </div>
+    </section>
+
+    <section class="section9 popins" id="contact">
+      <section class="containerDivForm">
+        <div class="divIzquierdoForm">
+          <h2>Let's get in touch</h2>
+          <p>
+            I enjoy discussing new projects and design challenges. Please share as much info, as possible
+            so we can get the most out of our first catch-up.
+          </p>
+
+          <h6>Living In:</h6>
+          <p>Capital Federal, Buenos Aires, ARG.</p>
+
+          <h6>Call:</h6>
+          <p>(+54) 11 3421 1305</p>
+
+          <div class="divFormSociales">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-light fa-basketball"></i>
+          </div>
+        </div>
+
+        <form class="divDerechoForm" onsubmit="return sendMail(event)">
+          <h2>Have a project in mind?</h2>
+
+          <h5>What is your name:</h5>
+          <input type="text" class="inputs" maxlength="40" required />
+
+          <h5>Your Email Address:</h5>
+          <input type="email" class="inputs" maxlength="50" required />
+
+          <h5>How can i help you?:</h5>
+          <textarea class="inputs" rows="3" required></textarea>
+
+          <button type="submit" class="buttonWorks">
+            Send<i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+      </section>
+    </section>
+
+    <footer class="popins">
+      <div>
+        <p>Copyright &#169; <span>Agustin</span>. All Rights Reserved</p>
+      </div>
+
+      <section class="sectionIcon">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </section>
+
+      <div>
+        <p>Designed by <span>Agustin Donalisio</span></p>
+      </div>
+    </footer>
+
+    <script>
+      function sendMail(e) {
+        e.preventDefault();
+        const form = e.target;
+        const [name, email, msg] = form.querySelectorAll("input, textarea");
+        const body = encodeURIComponent(`${msg.value}\n\nFrom: ${name.value} <${email.value}>`);
+        window.location.href = `mailto:dev@adonalisio.com?subject=Portfolio%20Contact&body=${body}`;
+        return false;
+      }
+    </script>
   </body>
 </html>
