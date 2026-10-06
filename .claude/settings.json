@@ -1,0 +1,12 @@
+{
+  "env": {
+    "GIT_AUTHOR_NAME": "dazxon",
+    "GIT_AUTHOR_EMAIL": "donalisioagustin@gmail.com",
+    "GIT_COMMITTER_NAME": "dazxon",
+    "GIT_COMMITTER_EMAIL": "donalisioagustin@gmail.com"
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  }
+}
